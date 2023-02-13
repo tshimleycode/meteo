@@ -1,17 +1,45 @@
 body{
-    background-image: url();
+    background-image: url(../image/pluie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     justify-content: center;
+    align-items: center;
 }
-#inputCity{
+.titrePrinc{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    color: rgba(115, 117, 118, 0.475);
+}
+form{
+    width: 300px;
+    margin: 10px auto;
+}
+form div #inputCity{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form div #btnRech{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(13, 162, 231);
+    border-radius: 20px;
+    border: solid rgb(13, 162, 231);
 }
 .box-container{
     width: 300px;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 .box{
     width: 150px;
